@@ -18,21 +18,6 @@ namespace LedOnPiCS
             {
                 Blink(pin, 500, 1000);
             }
-
-            // int counter = 0;
-            // foreach (var pin in Pi.Gpio.Pins)
-            // {
-            //     System.Console.WriteLine("Counter: " + counter++);
-            //     pin.PinMode = GpioPinDriveMode.Output;
-            //     System.Console.WriteLine("Pin: " + pin.PinNumber);
-            //     System.Console.WriteLine("HeaderPinNumber: " + pin.HeaderPinNumber);
-            //     System.Console.WriteLine("BCMPinNumber: " + pin.BcmPinNumber);
-
-            //     for (int i = 0; i < 10; i++)
-            //     {
-            //         Blink(pin, 500, 1000);
-            //     }
-            // }
         }
 
         private static void Blink(GpioPin pin, int on, int cycle)
